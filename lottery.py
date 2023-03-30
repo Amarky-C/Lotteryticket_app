@@ -1,7 +1,8 @@
 #enter the players name
 #enter the number
 #random randit within an inclusive range
-#
+#random
+#input
 import random
 def lottery_calc():
     lottery_player = input('Enter players name: ')
