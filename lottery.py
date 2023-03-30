@@ -1,8 +1,12 @@
-#enter the players name
-#enter the number
-#random randit within an inclusive range
-#random
-#input
+#random lottery ticket application
+#lottery numbers to be generated (0-50)
+#user enters the players name
+#user enters the number
+#the application generates a random number within the range specified
+#if number matches the application random number
+#the user wins the lottery
+#if the number doesn't match, the user loses and will try again
+
 import random
 def lottery_calc():
     lottery_player = input('Enter players name: ')
