@@ -13,7 +13,7 @@ def lottery_calc():
     lottery_player = input('Enter players name: ')
     lottery_number = int(input('Enter any number from 0-50: '))
     lottery_gen = random.randint(0,50)
-    if lottery_gen == winning_number and lottery_number = lottery_gen and winning_number:
+    if lottery_gen == winning_number and lottery_number == lottery_gen and winning_number:
         print(lottery_player, 'congratulations!', lottery_gen, 'is the lottery winning number')
     else:
         print(lottery_player, 'sorry you lost try again!', lottery_gen, 'is not the winning number', winning_number, 'is the lottery winning number')
